@@ -1,11 +1,12 @@
 streamlit
 google-generativeai
 python-dotenv
-langchain
 PyPDF2>=3.0.0
 faiss-cpu
+langchain
 langchain_google_genai
 langchain-community
 langchain-huggingface
 torch
+torchvision
 sentence-transformers

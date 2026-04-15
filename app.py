@@ -73,7 +73,6 @@ def get_conversational_chain():
     """
 
     model = ChatGoogleGenerativeAI(model="gemini-2.5-flash",
-                                   client=genai,
                                    temperature=0.3,
                                    )
     prompt = PromptTemplate(template=prompt_template,
